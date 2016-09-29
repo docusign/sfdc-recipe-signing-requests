@@ -50,7 +50,6 @@ Installing from this repo:
 
 * Click the button:  <a href="https://githubsfdeploy.herokuapp.com?owner=LarryKlugerDS&repo=demo">
   <img alt="Deploy to Salesforce" src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png"></a>
-  ![Repo deploy button](docs/images/sfdc_deploy.png)  
 * The next screen will show the repo information. Click **Login to Salesforce** (Upper-right corner)
   ![Login step](docs/images/sfdc_deploy_login.png)
 * Approve access to your Salesforce instance from the deploy tool: Click **Alow**
