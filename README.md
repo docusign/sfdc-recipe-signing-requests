@@ -157,6 +157,21 @@ Open the **Community Builder**. There are two ways to open the Community Builder
       
 * If you are the main part of SFDC, from Setup, enter "all" in the Quick Find box, then select **All Communities**. Then click **Builder** next to your community's name
 
+#### Navigating within the Community Builder
+The community builder is an interactive tool with four main modes, selected using the icons on the left side of the screen. 
+
+From the top to the bottom icons, the four modes are:
+
+![Branding Editor](docs/images/branding_editor.png) Branding Editor
+
+![Page Editor](docs/images/page_editor.png) Page Editor
+
+![Page Manager](docs/images/page_manager.png) Page Manager
+
+![Settings](docs/images/settings.png) Settings
+
+In the following steps, you will be switching between the different modes of the Community Builder.
+
 #### Add Signing Request to the navigation bar
 * Click on the Page Editor icon (second on left) 
 * Click on the nav bar (Topics) within the page itself, so you can edit it
