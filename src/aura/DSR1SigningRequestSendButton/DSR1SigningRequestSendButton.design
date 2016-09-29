@@ -1,0 +1,5 @@
+<design:component label="Signing Request Send Button">
+    <design:attribute name="successRedirect" label="On success redirect to abs. URL (empty for record page)" required="false" default=""/>
+    <design:attribute name="failRedirect" label="On fail redirect to abs. URL (empty for record page)" required="false" default=""/>
+    <design:attribute name="namedCredentialAPIName" label="Named Credential API Name" required="true" default="DS_Demo_User"/>
+</design:component>

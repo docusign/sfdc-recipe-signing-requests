@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>force:highlightsPanel</componentName>
+        </componentInstances>
+        <name>header</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>force:detailPanel</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>force:relatedListContainer</componentName>
+        </componentInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>failRedirect</name>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>namedCredentialAPIName</name>
+                <value>DS_Demo_User</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>successRedirect</name>
+            </componentInstanceProperties>
+            <componentName>DSR1SigningRequestSendButton</componentName>
+        </componentInstances>
+        <name>sidebar</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Signing Request Lightning Record Page</masterLabel>
+    <pageTemplate>flexipage:recordHomeTemplateDesktop</pageTemplate>
+    <sobjectType>DSR1_Signing_Request__c</sobjectType>
+    <type>RecordPage</type>
+</FlexiPage>

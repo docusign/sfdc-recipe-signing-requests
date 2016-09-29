@@ -1,0 +1,7 @@
+<design:component label="Signing Request Sign Button">
+    <design:attribute name="recordId" required="true" label="Signed Request Id" default="{!recordId}"/>
+    <design:attribute name="successRedirect" label="On success redirect to abs. URL (empty for record page)" required="false" default=""/>
+    <design:attribute name="failRedirect" label="On fail redirect to abs. URL (empty for record page)" required="false" default=""/>
+    <design:attribute name="communityUrl" required="true" label="Community URL" default="https://put-your-community-url-here.com/"/>
+    <design:attribute name="namedCredentialAPIName" required="true" label="Named Credential API Name" default="DS_Demo_Integration_User"/>
+</design:component>

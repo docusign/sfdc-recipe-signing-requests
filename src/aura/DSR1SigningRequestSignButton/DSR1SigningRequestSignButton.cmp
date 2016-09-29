@@ -1,0 +1,23 @@
+<aura:component controller="DSR1ComponentsController" implements="forceCommunity:availableForAllPageTypes,force:hasRecordId" access="global">
+ 	<aura:attribute name="recordId" type="String" />
+    <aura:attribute name="successRedirect" type="String" />
+    <aura:attribute name="failRedirect" type="String" />
+    <aura:attribute name="communityUrl" type="String" />
+    <aura:attribute name="namedCredentialAPIName" type="String" />
+    <aura:attribute name="signingRequest" type="DSR1_Signing_Request__c"/>
+    <aura:attribute name="currentUserId" type="Id"/>
+    <ltng:require styles="/resource/SLDSv212/assets/styles/salesforce-lightning-design-system.min.css" />
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="force:refreshView" action="{!c.doInit}" />
+    <div class="signButton">
+        <ui:button aura:id="signButton"
+                   buttonTitle="Click to open DocuSign and sign the document."
+                   class="slds-button slds-button--brand "
+                   label="Sign with DocuSign"
+                   press="{!c.onSignClick}"
+                   disabled="{! !v.signingRequest || !v.currentUserId ||
+                                v.signingRequest.Status__c != 'Sent' ||
+                             	v.signingRequest.Signer__c != v.currentUserId
+                             }"/>
+    </div>
+</aura:component>

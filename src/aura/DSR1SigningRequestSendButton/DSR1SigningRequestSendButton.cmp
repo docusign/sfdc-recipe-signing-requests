@@ -1,0 +1,25 @@
+<aura:component controller="DSR1ComponentsController" implements="force:hasRecordId,flexipage:availableForAllPageTypes">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="successRedirect" type="String" />
+    <aura:attribute name="failRedirect" type="String" />
+    <aura:attribute name="namedCredentialAPIName" type="String" />
+    <aura:attribute name="signingRequest" type="DSR1_Signing_Request__c"/>
+    <aura:attribute name="initialStatus" type="String"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="force:refreshView" action="{!c.doInit}" />
+    <center>
+        <aura:if isTrue="{!v.signingRequest.Status__c == 'Pending'}">
+            <ui:spinner aura:id="spinner"/>
+            Creating the envelope on DocuSign...
+            <aura:set attribute="else">
+                <ui:button aura:id="sendButton"
+                           buttonTitle="Click to open DocuSign, upload documents and send the envelope."
+                           class="button"
+                           label="Upload documents and send"
+                           press="{!c.onSendClick}"
+                           disabled="{!v.signingRequest.Status__c != 'Created'}">
+                </ui:button>
+            </aura:set>
+        </aura:if> 
+    </center>
+</aura:component>
