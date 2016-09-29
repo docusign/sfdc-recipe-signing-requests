@@ -52,7 +52,7 @@ Installing from this repo:
   <img alt="Deploy to Salesforce" src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png"></a>
 * The next screen will show the repo information. Click **Login to Salesforce** (Upper-right corner)
   ![Login step](docs/images/sfdc_deploy_login.png)
-* Approve access to your Salesforce instance from the deploy tool: Click **Alow**
+* Approve access to your Salesforce instance from the deploy tool: Click **Allow**
   ![Providing access](docs/images/sfdc_deploy_access.png)
  
 
