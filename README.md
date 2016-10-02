@@ -127,7 +127,7 @@ Each sender needs to enter their own DocuSign user name and password.
   ![App launcher](docs/images/sfdc_app_launcher.png)
 * Click the DocuSign Signing Recipe icon
   ![DocuSign Signing Recipe icon](docs/images/sfdc_deploy_recipe_icon.png)
-* Click **Signing Requests* to open the records list
+* Click **Signing Requests** to open the records list
 * Click **New**
 * The **Create Signing Request** modal opens
 * Fill it in by entering a **Subject** and picking a **Signer name** 
