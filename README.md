@@ -123,7 +123,7 @@ Each sender needs to enter their own DocuSign user name and password.
 ### Create a new Signing Request!
 * Switch to Lightning Experience to Send: use the *your name* menu > Switch to Lightning Experience
   ![Lightning switch](docs/images/sfdc_switch_to_lightning.png)
-* Click the App Launcher icon
+* Click the App Launcher icon (the "checkerboard" icon)
   ![App launcher](docs/images/sfdc_app_launcher.png)
 * Click the DocuSign Signing Recipe icon
   ![DocuSign Signing Recipe icon](docs/images/sfdc_deploy_recipe_icon.png)
