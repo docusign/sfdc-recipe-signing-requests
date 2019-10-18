@@ -19,7 +19,7 @@ The recipe can also be used to create signing requests for orders, for HR paperw
 [Create and configure the partner community on Salesforce.](https://github.com/docusign/sfdc-recipe-auto-provisioning/tree/master/docs/create_sfdc_community.md) This step includes:
 
 * Creating a Salesforce Developer Environment
-* Installing DocuSign for Salesforce
+* Installing DocuSign eSignature for Salesforce
 * Configuring a Salesforce Partner Community
 
 ### Step 2. Installing the recipe's content
