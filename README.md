@@ -1,4 +1,9 @@
-# DocuSign SFDC Recipe: Embedded Sending and Signing with Lightning
+# NOW DEPRECATED - DocuSign SFDC Recipe: Embedded Sending and Signing with Lightning
+
+**Please note even this recipe is still working, DocuSign have published an APEX Toolkit which cover the below use-cases directly as well as others.
+If you want to know more from the APEX toolkit, please check out the DocuSign Developer Center: https://developers.docusign.com/docs/salesforce directly to get ready in matter of minutes !**
+
+--
 
 This repo includes all files needed to demonstrate how Salesforce Partner Community members can sign documents from within the community.
 
